@@ -12,9 +12,8 @@ Parser
 
 Generator
     * Generate WASM binary from the given AST
-    and write it to ./[filename].erna (CWD directory)
+    and write it to ./[filename].ernac (CWD directory)
     
 VM
-    * Read and execute the ./[filename].erna
+    * Read and execute the ./[filename].ernac
     (CWD directory).
-    
