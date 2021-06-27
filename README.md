@@ -11,30 +11,33 @@ $ cd Ernaculere
 ```
 
 ### Building
-In order to build this project, you are required to install Deno. Read more at [here](https://deno.land/#installation 'Deno').
 ```sh
-# Execute via NPM
-$ npm run build.py
-
-# Execute via Python
-$ python build.py
+$ npm run build
 ```
 
 ### Linting
-You will also need Deno for this.
 ```sh
-# Execute via NPM
 $ npm run lint
+```
 
-# Execute via Python
-$ python lint.pt
+### Bundle
+```sh
+# For Linux/MacOS
+$ npm run bundle:posix
 
-# Execute via Deno
-$ deno lint
+# For Windows
+$ npm run bundle:windows
 ```
 
 ### Test
 Currently, test haven't been setup yet.
+```sh
+# For Linux/MacOS
+$ npm run test:posix
+
+# For Windows
+$ npm run test:windows
+```
 
 # Todo
 For more info, please read the [`TODO.txt`](https://github.com/KanseiKy/Ernaculere/blob/main/TODO.txt 'Todo').

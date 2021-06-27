@@ -4,10 +4,12 @@
   "description": "A small language written in Rust",
   "main": "node/index.js",
   "scripts": {
-    "test": "python test.py",
+    "test:posix": "bash test.sh",
+    "bundle:posix": "bash bundle.sh",
+    "test:windows": ".\\test.ps1",
+    "bundle:windows": ".\\bundle.ps1",
     "build": "python build.py",
-    "lint": "python lint.py",
-    "bundle": "python bundle.py"
+    "lint": "deno lint --unstable --ignore=node_modules/"
   },
   "repository": {
     "type": "git",

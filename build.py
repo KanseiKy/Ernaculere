@@ -7,8 +7,6 @@ import time
 import sys
 import os
 
-repo = 'https://github.com/KanseiKy/Ernaculere'
-
 deno_modules = [
     'https://deno.land/std@0.99.0/node/module.ts'
 ]
@@ -47,9 +45,8 @@ def check():
         exec = shutil.which(i)
 
         if exec == None:
-            error(f'Couldn\'t find {i}')
-            error(f'Please install {i} and try again')
-            error(f'If you think this is a mistake, please open an issue at {repo}')
+            error(f'Couldn\'t find \'{i}\'')
+            error(f'Please install \'{i}\' and set the PATH correctly')
             error('Aborting...')
             sys.exit(1)
 
