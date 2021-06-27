@@ -1,0 +1,25 @@
+{
+  "name": "ernaculere",
+  "version": "1.0.0",
+  "description": "A small language written in Rust",
+  "main": "node/index.js",
+  "scripts": {
+    "test": "python test.py",
+    "build": "python build.py",
+    "lint": "python lint.py",
+    "bundle": "python bundle.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KanseiKy/Ernaculere.git"
+  },
+  "author": "Ky",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/KanseiKy/Ernaculere/issues"
+  },
+  "homepage": "https://github.com/KanseiKy/Ernaculere#readme",
+  "dependencies": {
+    "assemblyscript": "^0.19.4"
+  }
+}

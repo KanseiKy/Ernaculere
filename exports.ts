@@ -1,0 +1,1 @@
+export type { Ernaculere } from './types/global.d.ts';

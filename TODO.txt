@@ -1,0 +1,20 @@
+Tokenizer
+    * Loop through the input string and assign
+    each of the character a token.
+    * If the character is invalid/unsupported,
+    reject it.
+    * Ignore whitespace, newlines and comments.
+
+Parser
+    * Parse the given token(s) to AST
+    * If the token(s) combination is wrong,
+    reject everything.
+
+Generator
+    * Generate WASM binary from the given AST
+    and write it to ./[filename].erna (CWD directory)
+    
+VM
+    * Read and execute the ./[filename].erna
+    (CWD directory).
+    
